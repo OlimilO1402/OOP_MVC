@@ -40,5 +40,5 @@ Try: On Error GoTo Catch
     End If
     Exit Sub
 Catch:
-    TheView.DisplayErrorMessage "You need to enter 2 numbers" & vbCrLf & Err.Description
+    TheView.DisplayErrorMessage "Please enter 2 numbers" & vbCrLf & Err.Description
 End Sub

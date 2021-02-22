@@ -29,10 +29,10 @@ End Property
 
 ' --------========######## '     CalcModel    ' ########========-------- '
 Private Property Get CalcModel_Param1() As Double
-    CalcModel_Param1 = m_Sum1
+    CalcModel_Param1 = m_Sub1
 End Property
 Private Property Get CalcModel_Param2() As Double
-    CalcModel_Param2 = m_Sum2
+    CalcModel_Param2 = m_Sub2
 End Property
 Private Sub CalcModel_Calc(ByVal Param1 As Double, Optional ByVal Param2 As Double)
     Me.Calc Param1, Param2
