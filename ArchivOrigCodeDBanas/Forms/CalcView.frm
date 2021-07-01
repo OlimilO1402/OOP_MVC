@@ -94,7 +94,7 @@ End Property
 Public Property Get SecndNum() As Double
     
     If Double_TryParse(TxtSecndNum.Text, SecndNum) Then Exit Property
-    Err.Description "Please give a valid numeric value: """ & TxtSecndNum.Text & """ is not a number."
+    Err.Description = "Please give a valid numeric value: """ & TxtSecndNum.Text & """ is not a number."
     Err.Raise 0
     
 End Property
